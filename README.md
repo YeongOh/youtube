@@ -1,3 +1,14 @@
+# Youtube Clone coding
+
+Cloning youtube with React
+
+React Router
+React Query
+Axios
+Tailwind
+
+2022-11-21 ~ 2022-11-23
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
