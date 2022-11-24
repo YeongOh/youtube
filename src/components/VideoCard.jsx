@@ -19,14 +19,16 @@ export default function VideoCard({ video, type }) {
     <li className={isList ? 'flex gap-1 m-2' : ''}>
       <img
         onClick={handleClickForVideo}
-        className={isList ? 'w-60 mr-2' : 'w-full'}
+        className={
+          isList ? 'w-60 mr-2 cursor-pointer' : 'w-full cursor-pointer'
+        }
         src={thumbnails.medium.url}
         alt={title}
       />
       <div>
         <p
           onClick={handleClickForVideo}
-          className='font-semibold my-2 line-clamp-2'
+          className='font-semibold my-2 line-clamp-2 cursor-pointer'
         >
           {title}
         </p>
